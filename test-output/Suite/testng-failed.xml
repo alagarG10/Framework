@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Adactin Test Suite(failed)">
+    <classes>
+      <class name="testcase.TC2_Search_Hotel_Page">
+        <methods>
+          <include name="Verify_TC2_Search_Hotel"/>
+          <include name="Teardown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- testcase.TC2_Search_Hotel_Page -->
+      <class name="testcase.TC3_Select_Hotel_Page">
+        <methods>
+          <include name="Teardown"/>
+          <include name="Verify_TC3_Select_Hotel"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- testcase.TC3_Select_Hotel_Page -->
+    </classes>
+  </test> <!-- Adactin Test Suite(failed) -->
+</suite> <!-- Failed suite [Suite] -->
